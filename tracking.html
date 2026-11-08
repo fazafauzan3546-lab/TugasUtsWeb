@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracking Pengiriman</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Tracking Pengiriman</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="stok.html">Katalog Stok</a>
+            <a href="checkout.html">Pemesanan</a>
+            <a href="tracking.html">Tracking</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Cek Nomor Delivery Order (DO)</h2>
+        <div class="form-group">
+            <label>Nomor DO (Contoh: 20230012 atau 20230013)</label>
+            <input type="text" id="inputNoDO" placeholder="Masukkan Nomor DO">
+        </div>
+        <button onclick="cariTracking()">Cari</button>
+
+        <div id="hasilTracking" style="margin-top: 20px;"></div>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

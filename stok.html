@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Katalog Stok Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Katalog Buku</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="stok.html">Katalog Stok</a>
+            <a href="checkout.html">Pemesanan</a>
+            <a href="tracking.html">Tracking</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Daftar Katalog Buku Ajar</h2>
+        
+        <!-- Form Tambah Stok via DOM -->
+        <div style="background: #f9f9f9; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+            <h3>Tambah Barang Baru (DOM Manipulation)</h3>
+            <div class="form-group"><input type="text" id="kodeBaru" placeholder="Kode Barang (Contoh: KOD999)"></div>
+            <div class="form-group"><input type="text" id="namaBaru" placeholder="Nama Barang"></div>
+            <div class="form-group"><input type="text" id="jenisBaru" placeholder="Jenis Barang"></div>
+            <div class="form-group"><input type="text" id="edisiBaru" placeholder="Edisi"></div>
+            <div class="form-group"><input type="number" id="stokBaru" placeholder="Stok"></div>
+            <div class="form-group"><input type="text" id="hargaBaru" placeholder="Harga (Contoh: Rp 150.000)"></div>
+            <button onclick="tambahBarisStok()">Tambah ke Tabel</button>
+        </div>
+
+        <table id="tabelStok">
+            <thead>
+                <tr>
+                    <th>Cover</th>
+                    <th>Kode</th>
+                    <th>Nama Barang</th>
+                    <th>Jenis</th>
+                    <th>Edisi</th>
+                    <th>Stok</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data dimuat dinamis dari data.js -->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
