@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aplikasi Pemesanan Buku Online - Tugas UTS Pemrograman Web 1
 
 Aplikasi web front-end sederhana untuk pemesanan buku toko online. Aplikasi ini dibangun menggunakan **HTML5 (Semantik)**, **CSS3**, dan **JavaScript (DOM Manipulation)** tanpa bantuan *framework* atau database backend, memanfaatkan data JSON lokal dari `data.js`.
@@ -81,3 +82,6 @@ tugas-uts-web1/
 * `20230012` (Atas nama Rina Wulandari - Status: Dalam Perjalanan)
 
 * `20230013` (Atas nama Agus Pranoto - Status: Dikirim/Selesai)
+=======
+# TugasUtsWeb
+>>>>>>> f039e1e7a3f646ec5c1e47890adb275ec6b3332f
